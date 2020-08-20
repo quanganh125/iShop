@@ -1,0 +1,2811 @@
+2020-08-20 03:55:30 Error: [Cake\Http\Exception\MissingControllerException] Controller class Shops could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Shops',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /shops/home
+Client IP: 172.17.0.1
+
+
+2020-08-20 03:55:56 Error: [Cake\View\Exception\MissingElementException] Element file `nav.php` could not be found.
+
+The following paths were searched:
+
+- `/var/html/iShop/templates/element/nav.php`
+- `/var/html/iShop/vendor/cakephp/cakephp/templates/element/nav.php`
+ in nav.php on line 660
+Exception Attributes: array (
+  'file' => 'nav.php',
+  'paths' => 
+  array (
+    0 => '/var/html/iShop/templates/element/',
+    1 => '/var/html/iShop/vendor/cakephp/cakephp/templates/element/',
+  ),
+)
+Stack Trace:
+- /var/html/iShop/templates/layout/home.php:15
+- /var/html/iShop/vendor/cakephp/cakephp/src/View/View.php:1160
+- /var/html/iShop/vendor/cakephp/cakephp/src/View/View.php:1121
+- /var/html/iShop/vendor/cakephp/cakephp/src/View/View.php:803
+- /var/html/iShop/vendor/cakephp/cakephp/src/View/View.php:762
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/Controller.php:688
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/Controller.php:530
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /shops/home
+Client IP: 172.17.0.1
+
+
+2020-08-20 03:58:57 Error: [Cake\View\Exception\MissingElementException] Element file `nav.php` could not be found.
+
+The following paths were searched:
+
+- `/var/html/iShop/templates/element/nav.php`
+- `/var/html/iShop/vendor/cakephp/cakephp/templates/element/nav.php`
+ in nav.php on line 660
+Exception Attributes: array (
+  'file' => 'nav.php',
+  'paths' => 
+  array (
+    0 => '/var/html/iShop/templates/element/',
+    1 => '/var/html/iShop/vendor/cakephp/cakephp/templates/element/',
+  ),
+)
+Stack Trace:
+- /var/html/iShop/templates/layout/home.php:15
+- /var/html/iShop/vendor/cakephp/cakephp/src/View/View.php:1160
+- /var/html/iShop/vendor/cakephp/cakephp/src/View/View.php:1121
+- /var/html/iShop/vendor/cakephp/cakephp/src/View/View.php:803
+- /var/html/iShop/vendor/cakephp/cakephp/src/View/View.php:762
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/Controller.php:688
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/Controller.php:530
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /shops/home
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:04:29 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:04:29 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:04:29 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:04:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:04:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:04:59 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:46 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:46 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:47 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:57 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:57 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:06:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:07:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:07:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:07:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:08:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:08:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:08:13 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:14:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:14:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:14:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:05 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:53 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:53 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:16:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:17:29 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:17:29 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:17:29 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:19:00 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:19:00 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:19:00 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:19:15 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:19:15 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:19:16 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:21:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:21:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:21:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:23:18 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:23:18 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:23:19 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:11 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:11 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:11 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:16 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:16 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:16 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:24:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:35:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:35:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:35:24 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:37:30 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:37:30 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:37:30 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:38:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:38:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:38:27 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:41:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:41:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:41:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:15 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:16 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:16 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/MonoSocialIconsFont-1.10.ttf
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.woff?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
+2020-08-20 04:44:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Fonts could not be found. in /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/html/iShop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:147
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/html/iShop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/html/iShop/webroot/index.php:40
+
+Request URL: /fonts/casper-icons.ttf?v=1
+Referer URL: http://localhost:8181/css/screen.css
+Client IP: 172.17.0.1
+
+
