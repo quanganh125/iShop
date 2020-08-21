@@ -1,46 +1,30 @@
-<header class="main-header author-head ">
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <img src="/img/applewatch.jpg" alt="apple watch">
-</div>
-
-<div class="mySlides fade">
-  <img src="/img/macbook.jpg" alt="macbook" >
-</div>
-
-<div class="mySlides fade">
-  <img src="/img/kawasaki.jpg" alt="kawasaki">
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
+<header class="main-header " id="showSlide" style="background-image: url(/img/applewatch.jpg)">
+	<div class="vertical">
+		<div class="main-header-content inner">
+			<h1 class="page-title">Make them yours</h1>
+			<div class="entry-title-divider">
+				<span></span><span></span><span></span>
+			</div>
+			<h2 class="page-description">Thoughts, reviews and ideas since 2020.</h2>
+		</div>
+	</div>
+  <a class="scroll-down icon-arrow-left" href="#content">
+    <span class="hidden">Scroll Down</span>
+  </a>
+  </header>
+  
 <script>
-var slideIndex = 0;
-showSlides();
+  var images = [
+    "/img/applewatch.jpg",
+    "/img/macbook.jpg",
+    "/img/kawasaki.jpg"
+  ]
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+  var imageHead = document.getElementById('showSlide');
+  var i = 0;
+  setInterval(function(){
+    imageHead.style.backgroundImage =  "url("+ images[i] +")";
+    i++;
+    if( i==images.length) i = 0;
+  }, 2000);
 </script>
-</header>
