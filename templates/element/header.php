@@ -1,4 +1,4 @@
-<header class="main-header " id="showSlide" style="background-image: url(/img/applewatch.jpg)">
+<header class="main-header " id="showSlide" style="background-image: url(/img/ipads/ipad.png)">
 	<div class="vertical">
 		<div class="main-header-content inner">
 			<h1 class="page-title">Make them yours</h1>
@@ -8,16 +8,17 @@
 			<h2 class="page-description">Thoughts, reviews and ideas since 2020.</h2>
 		</div>
 	</div>
-  <a class="scroll-down icon-arrow-left" href="#content">
-    <span class="hidden">Scroll Down</span>
+  <a class="scroll-down icon-arrow-left" href="#content" hidden>
   </a>
   </header>
   
 <script>
   var images = [
-    "/img/applewatch.jpg",
-    "/img/macbook.jpg",
-    "/img/kawasaki.jpg"
+    "/img/watches/applewatch.jpg",
+    "/img/macbooks/macbook.jpg",
+    "/img/earpods/airpod.jpg",
+    "/img/iphones/iphone.png",
+    "/img/ipads/ipad.png"
   ]
 
   var imageHead = document.getElementById('showSlide');

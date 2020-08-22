@@ -7,7 +7,7 @@ class ShopsController extends AppController{
 
     public function beforeFilter(EventInterface $event)
     {
-        $this->viewBuilder()->setLayout('page');
+        $this->viewBuilder()->setLayout('homepage');
     }
     public function home(){   
         $this->loadModel('Products');
