@@ -1,3 +1,1 @@
-<h1>
-    post Product page test
-</h1>
+<?= $this->element('home_nav');?>

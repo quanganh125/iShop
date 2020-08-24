@@ -15,7 +15,12 @@ class ShopsController extends AppController{
         $this->set('products',$products);
     }
 
-    public function postProduct(){
+    public function showProduct(){     
+        $categoryName = $this->request->getAttribute('params')['pass'][0];
+        $this->set('categoryName',$categoryName);
+    }  
+
+    public function postProduct(){     
 
     }  
 }

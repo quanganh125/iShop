@@ -188,6 +188,11 @@ table {
 .icon-arrow-left:before {
 	content:"<";
 }
+
+.icon-arrow-right:before {
+	content:">";
+}
+
 .icon-stats:before {
 	content:"\f606";
 }
@@ -671,7 +676,7 @@ body.nav-opened .nav {
 	display:block;
 	position:absolute;
 	z-index:100;
-	bottom:75px;
+	bottom:81px;
 	left:50%;
 	margin-left:-16px;
 	width:34px;
@@ -1448,16 +1453,19 @@ h2.widget-title {
 }
 /* ========================================================================== 10. Footer - The bottom of every page ========================================================================== */
 .site-footer {
-	position:relative;
-	margin:0rem 0 0 0;
-	padding:4rem 15px;
-	font-size:1.3rem;
-	text-transform:uppercase;
-	line-height:1.75em;
-	color:rgba(255,255,255,0.5);
-	background:#1d1d1d;
-	letter-spacing:1px;
-	font-family:Playfair Display;
+		clear: both;
+		position: relative;
+		width: 100%;
+		bottom: 0;
+		margin-top: -50px;
+		padding:3rem 15px;
+		font-size:1.3rem;
+		text-transform:uppercase;
+		line-height:1.75em;
+		color:rgba(255,255,255,0.5);
+		background:#1d1d1d;
+		letter-spacing:1px;
+		font-family:Playfair Display; 
 }
 .site-footer a {
 	text-decoration:none;
@@ -1956,10 +1964,10 @@ footer.site-footer:after {
 .wrapshadow {
 	position:absolute;
 	top:0;
-	left:-34px;
+	left:-39px;
 	max-width:200%;
 	zoom:1;
-	width:1214px;
+	width:106%;
 }
 body.nav-opened {
 	padding-top:0;

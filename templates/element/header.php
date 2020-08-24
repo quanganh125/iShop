@@ -8,9 +8,8 @@
 			<h2 class="page-description">Thoughts, reviews and ideas since 2020.</h2>
 		</div>
 	</div>
-  <a class="scroll-down icon-arrow-left" href="#content" hidden>
-  </a>
-  </header>
+  <a class="scroll-down icon-arrow-left" href="#content" hidden></a>
+</header>
   
 <script>
   var images = [

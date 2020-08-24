@@ -9,13 +9,12 @@
 <script src="https://kit.fontawesome.com/fb8dce20e7.js" crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="#">
 <link rel="stylesheet" type="text/css" href="/css/screen.css"/>
+<link rel="stylesheet" type="text/css" href="/css/product.css"/>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic"/>
 </head>
 <body class="author-template">
 <div class="site-wrapper">
-	<?= $this->element('nav'); ?>
 	<?= $this->fetch('content'); ?>
-    <?= $this->element('footer'); ?>
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/js/masonry.min.js"></script>
