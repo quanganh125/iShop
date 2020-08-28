@@ -6,3 +6,90 @@
     background: white;
     z-index: 10;
 }
+
+.see-more-btn {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    padding: 5px 0;
+    width: 110px;
+    margin: 0 5px;
+    margin-left: 0;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #f76b1c;
+    text-transform: uppercase;
+    border: 1px solid #f76b1c;
+    border-radius: 3px;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.see-more-btn:hover, .see-more-btn:active{
+    color: #fff;
+    background: #f76b1c;
+}
+
+.see-more-btn:focus{
+    outline: none;
+}
+
+/* ----------------------------------- show product------------------------------------------ */
+.search-suggest{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    height: 34px;
+    width:40%;
+    margin-left: 10%;
+    margin-top: 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.search-suggest *{
+    position: relative;
+    display: inline-block;
+    border: none;
+}
+
+.search-suggest button {
+    float: right;
+    background: none;
+	color: inherit;
+	border: none;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#clear-btn{
+    display: none;
+}
+
+.search-suggest button:hover{
+    color: #f76b1c;
+}
+
+.search-suggest input{
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    padding-left: 7px;
+    width: 80%; 
+    text-decoration: none;
+    font-family: Playfair Display;
+}
+
+.search-suggest input:focus{
+    outline: none;
+}
+
+
+
+
+
