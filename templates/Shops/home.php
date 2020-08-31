@@ -38,7 +38,7 @@
 						<header class="post-header">
 						<h2 class="post-title"><a href=<?= $this->Url->build(['controller'=>'shops',
 																			'action'=>'showProduct',
-																			$test])?>>Macbook Pro.</a></h2>
+																			$test])?>>Macbook</a></h2>
 						</header>
 						<section class="post-excerpt">
 						<p>
@@ -63,7 +63,7 @@
 						<header class="post-header">
 						<h2 class="post-title"><a href=<?= $this->Url->build(['controller'=>'shops',
 																			'action'=>'showProduct',
-																			$test])?>>iPhone 11.</a></h2>
+																			$test])?>>iPhone</a></h2>
 						</header>
 						<section class="post-excerpt">
 						<p>
@@ -88,7 +88,7 @@
 						<header class="post-header">
 						<h2 class="post-title"><a href=<?= $this->Url->build(['controller'=>'shops',
 																			'action'=>'showProduct',
-																			$test])?>>AirPod Pro</a></h2>
+																			$test])?>>AirPod</a></h2>
 						</header>
 						<section class="post-excerpt">
 						<p>
@@ -113,7 +113,7 @@
 						<header class="post-header">
 						<h2 class="post-title"><a href=<?= $this->Url->build(['controller'=>'shops',
 																			'action'=>'showProduct',
-																			$test])?>>iPad Pro.</a></h2>
+																			$test])?>>iPad</a></h2>
 						</header>
 						<section class="post-excerpt">
 						<p>

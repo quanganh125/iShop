@@ -31,14 +31,12 @@ class ShopsController extends AppController{
     public function seeMore(){  
         $this->loadModel('Products');
         $this->loadModel('ProductImages'); 
+        $this->viewBuilder()->setLayout('product_page');   
         $product_id = $this->request->getAttribute('params')['pass'][0];  
         $product = $this->Products->find('all', array( 'contain' => array('ProductImages')))
                                     ->select()
                                     ->where(['id'=> $product_id]);
-        foreach($product as $value){
-            debug($value);
-        }
-        exit();
+        $this->set(['product' => $product]);
     }
 
     public function find(){     
@@ -53,11 +51,13 @@ class ShopsController extends AppController{
                                         'or' => array(
                                             "Products.name LIKE" => "%$target%"
                                 ))))
-                                    ->where(['category'=> $category,]);              
+                                    ->where(['category'=> $category,])
+                                    ->order(['cost'=> 'DESC']);              
         $this->set(['products' => $products,'category'=> $category]);
     }  
 
     public function postProduct(){     
         $this->viewBuilder()->setLayout('post_product_page');   
     }  
+
 }

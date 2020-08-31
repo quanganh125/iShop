@@ -37,7 +37,7 @@
 
 /* ----------------------------------- show product------------------------------------------ */
 .search-suggest{
-    display: block;
+    display: inline-flex;
     position: relative;
     box-sizing: border-box;
     height: 34px;
@@ -50,7 +50,7 @@
 
 .search-suggest *{
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     border: none;
 }
 
@@ -59,12 +59,19 @@
     background: none;
 	color: inherit;
 	border: none;
-    padding-right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+#clear-btn{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+    padding:10px;
 }
 
 #clear-btn{
@@ -75,12 +82,16 @@
     color: #f76b1c;
 }
 
+#clear-btn:hover{
+    color: #f76b1c;
+}
+
 .search-suggest input{
     float: left;
     margin: 3px;
     padding: 3px;
     padding-left: 7px;
-    width: 80%; 
+    width: 85%; 
     text-decoration: none;
     font-family: Playfair Display;
 }
@@ -90,6 +101,196 @@
 }
 
 
+.sort-box{
+    display: inline-flex;
+    position: relative;
+    height: 34px;
+    width:15%;
+    margin-left: 5%;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.8);;
+    border-radius: 5px;
+    /* text-align: left; */
+}
 
+  
+  .sort-box {
+    /* margin: 80px auto;
+    width: 400px; */
+    text-align: center;
+    font-family: Playfair Display;
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid;
+    border-color: white #fff;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  }
+  
+  .dropdown:before, .dropdown:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 9px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: #888888 transparent;
+    pointer-events: none;
+  }
+  
+  .dropdown:before {
+    border-bottom-style: solid;
+    border-top: none;
+  }
+  
+  .dropdown:after {
+    margin-top: 7px;
+    border-top-style: solid; 
+    border-bottom: none;
+  }
+  
+  .dropdown-select {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 3px 10px 3px 10px;
+    height: 34px;
+    line-height: 18px;
+    font-size: 15px;
+    color: black;
+    text-shadow: 0 1px white;
+    background: #fff; /* Fallback for IE 8 */
+    background: rgba(0, 0, 0, 0) !important; /* "transparent" doesn't work with Opera */
+    border: 0;
+    border-radius: 5px;
+    -webkit-appearance: none;
+  }
+  
+  .dropdown-select:focus {
+    z-index: 3;
+    width: 100%;
+    color: #394349;
+    outline: 2px solid #49aff2;
+    outline: 2px solid -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  
+  .dropdown-select > option {
+    margin: 3px;
+    padding: 6px 8px;
+    text-shadow: none;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Fix for IE 8 putting the arrows behind the select element. */
+  
+  .lt-ie9 .dropdown {
+    z-index: 1;
+  }
+  
+  .lt-ie9 .dropdown-select {
+    z-index: -1;
+  }
+  
+  .lt-ie9 .dropdown-select:focus {
+    z-index: 3;
+  }
+  
+  /* Dirty fix for Firefox adding padding where it shouldn't. */
+  
+  @-moz-document url-prefix() {
+    .dropdown-select {
+      padding-left: 6px;
+    }
+  }
+  
+  .dropdown-dark {
+    background: #444;
+    border-color: #111111 #0a0a0a black;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-dark:before {
+    border-bottom-color: #aaa;
+  }
+  
+  .dropdown-dark:after {
+    border-top-color: #aaa;
+  }
+  
+  .dropdown-dark .dropdown-select {
+    color: #aaa;
+    text-shadow: 0 1px black;
+    background: #444;  /* Fallback for IE 8 */
+  }
+  
+  .dropdown-dark .dropdown-select:focus {
+    color: #ccc;
+  }
+  
+  .dropdown-dark .dropdown-select > option {
+    background: #444;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+  }
 
+.product-content{
+  position: relative;
+  margin-top: 64px;
+  padding-top: 2%;
+  width: 100%;
+  height: auto;
+}
 
+.product-content .wrap-content{
+  position: relative;
+  padding-top:5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 10%;
+  height: 100%
+}
+
+.product-content .wrap-content img{
+  height: auto;
+  width: 45%;
+  padding: 2%;
+  float: left;
+  min-width: 400px;
+}
+
+.product-content .wrap-content section{
+  position: inherit;
+  width: 35%;
+  height: auto;
+  padding: 2%;
+  float: left;
+}
+
+section .product-name{
+  text-align: center;
+  color: #294057;
+  font: normal normal normal 25px/1.4em "open sans",sans-serif;
+}

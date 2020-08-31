@@ -47,9 +47,25 @@
                                                                             'action'=>'find',
                                                                            $category])?>"> 
             <input class="search" type="text" placeholder="Search..." name="target">
-            <button type="submit"><i class="fas fa-search" id="search-btn"></i><button>
+            <i class="fas fa-times" id="clear-btn" ></i>
+            <button type="submit"><i class="fas fa-search" id="search-btn"></i></button>
+           
         </form>
-        <i class="fas fa-times" id="clear-btn" ></i>
+       
+        <div class="sort-box">
+                <div class="dropdown">
+                    <select name="two" class="dropdown-select" >
+                    <option value="1" selected class="high-low">Price: High to Low</option>
+                    <option value="2" class="low-high">Price: Low to High</option>
+                    <option value="3" onload="<?= $this->Url->build(['controller'=>'shops',
+																	'action'=>'sort',
+																	$products,'name-az'])?>" class="name-az">Name (A-Z)</option>
+                    <option value="4" onload="<?= $this->Url->build(['controller'=>'shops',
+																	'action'=>'sort',
+																	$products,'new-old'])?>" class="new-old">Newest Arrivals</option>
+                    </select>
+                </div>
+        </div>
     </nav>	
 </div>
 
@@ -60,7 +76,9 @@
 														padding-left:3%; padding-right:3%;">
 		<div class="wraps">
 			<img src="/img/shadow.png" class="wrapshadow" style="width: 105.8%">
-			<div class="grid">		        
+			<div class="grid">	
+                
+            
 				<?php foreach($products as $value){
 					$product= $value->product_images[0]; ?>     
 					<div class="grid-item" style="text-align: center;">		

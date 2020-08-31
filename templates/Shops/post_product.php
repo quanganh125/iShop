@@ -19,7 +19,7 @@
 						</header>
 						<section class="post-excerpt">
 						<p>
-							<?= $value->cost." "; ?>VND. 	
+							<?= $value->cost." "; ?>
 							<a class="read-more" href="<?= $this->Url->build(['controller'=>'shops',
 																			'action'=>'showProduct',
 																			$test])?>">&raquo;</a>

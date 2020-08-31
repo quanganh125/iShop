@@ -47,9 +47,19 @@
                                                                             'action'=>'find',
                                                                            $category])?>"> 
             <input class="search" type="text" placeholder="Search..." name="target">
-            <button type="submit"><i class="fas fa-search" id="search-btn"></i><button>
+            <button type="submit"><i class="fas fa-search" id="search-btn"></i></button>
+            <i class="fas fa-times" id="clear-btn" ></i>
         </form>
-        <i class="fas fa-times" id="clear-btn" ></i>
+        <div class="sort-box">
+                <div class="dropdown dropdown-dark">
+                    <select name="two" class="dropdown-select">
+                    <option value="">Price: High to Low</option>
+                    <option value="1">Price: Low to High</option>
+                    <option value="2">Name (A-Z)</option>
+                    <option value="3">Newest Arrivals</option>
+                    </select>
+                </div>
+        </div>
     </nav>	
 </div>
 
