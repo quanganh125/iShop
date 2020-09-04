@@ -55,13 +55,13 @@
 }
 
 .search-suggest button {
-    float: right;
-    background: none;
+  float: right;
+  background: none;
 	color: inherit;
 	border: none;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
@@ -258,19 +258,28 @@
 
 .product-content{
   position: relative;
-  margin-top: 64px;
-  padding-top: 2%;
   width: 100%;
   height: auto;
+  /* background: #f4f4f4; */
+}
+.product-content .shop-image img{
+  size: cover;
+  position: center;
+  attachment: fixed;
+  width: 100%;
 }
 
 .product-content .wrap-content{
   position: relative;
   padding-top:5%;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 10%;
-  height: 100%
+  margin-left: 20%;
+  margin-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  display: block;
+  overflow: auto;
+  /* background: white; */
 }
 
 .product-content .wrap-content img{
@@ -278,19 +287,82 @@
   width: 45%;
   padding: 2%;
   float: left;
-  min-width: 400px;
+  min-width: 350px;
 }
 
 .product-content .wrap-content section{
-  position: inherit;
-  width: 35%;
+  width: 300px;
   height: auto;
   padding: 2%;
+  padding-left: 25px;
   float: left;
 }
 
 section .product-name{
-  text-align: center;
+  margin-bottom: 25px;
+  text-align: left;
   color: #294057;
   font: normal normal normal 25px/1.4em "open sans",sans-serif;
+}
+
+section .product-cost{
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font: normal normal normal 20px/25px "open sans",sans-serif;
+  text-align: left;
+  color: #605E5E;
+  margin-bottom: 25px;
+}
+
+section .product-description{
+  margin-bottom: 25px;
+}
+
+section .product-total div{
+  font: normal normal normal 15px/1.4em "open sans",sans-serif;
+  color: #575757;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  padding: 10px 0px 10px 10px;
+  margin-bottom: 25px;
+}
+
+section .contact-seller{
+  width: 280px;
+  height: 40px;
+  font: normal normal normal 15px/1.4em "open sans",sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(95, 112, 129);
+  border-width: 0px;
+}
+
+section .contact-seller:hover{
+  background-color: rgba(95, 112, 129, 0.7);
+}
+
+section .contact-seller:focus{
+  outline: none;
+}
+
+.seller-infor{
+  display: none;
+}
+
+.logout{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.logout i{
+  color:white;
+  font-size: 1.7em;
+  display: inline-block;
+  line-height: 43px;
+  margin: 0 3px;
 }

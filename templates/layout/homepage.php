@@ -46,7 +46,7 @@
 		var images = [
 			"/img/watches/applewatch.jpg",
 			"/img/macbooks/macbook.jpg",
-			"/img/earpods/airpod.jpg",
+			"/img/airpods/airpod.jpg",
 			"/img/iphones/iphone.png",
 			"/img/ipads/ipad.png"
 		]

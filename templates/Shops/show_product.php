@@ -94,7 +94,7 @@
 																				$product->id])?>> <?= $value->name;?></a></h2>
 							</header>
 							<section class="post-excerpt">
-							<p><b><?= $value->cost." "; ?></b><p>
+							<p><b>$<?= $value->cost." "; ?></b><p>
 							</section>
 							<a href=<?= $this->Url->build(['controller'=>'shops',
 															'action'=>'seeMore',

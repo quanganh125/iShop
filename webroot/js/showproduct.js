@@ -16,6 +16,10 @@ $(document).ready(function(){
       }
     });
 
+    $(".contact-seller").click(function(){
+      $(".seller-infor").slideToggle( "middle");
+    })
+
     $(".dropdown-select").change(function($products){
       var e = $(".dropdown-select :selected").val();
       

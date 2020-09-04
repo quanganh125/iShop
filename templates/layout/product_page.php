@@ -21,6 +21,6 @@
 <script type="text/javascript" src="/js/masonry.min.js"></script>
 <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
 <script type="text/javascript" src="/js/index.js"></script>
-
+<script type="text/javascript" src="/js/showproduct.js"></script>
 </body>
 </html>

@@ -47,14 +47,28 @@
 </nav>
 
 <main class="product-content">
+    <div class="shop-image">
+        <img src="/img/shop.JPG">
+    </div>
+
 	<div class="wrap-content">
         <img src="<?= $value->product_images[0]->image_link; ?>" alt="">
         <section>
             <div class="product-name"> <?= $value->name?></div>
+            <div class="product-cost"> $<?= $value->cost?></div>
             <div class="product-description">
                 <?= $value->description;?>
             </div>
-            <div class="product-action">action here</div>
+            <div class="product-total">
+                Quantity<br>
+                <div><?= $value->total?></div>
+            </div>
+            <button class="contact-seller">contact the seller</button>
+            <div class="seller-infor" > 
+                <b> Name:</b> <?= $users[0]->user->name;?><br>
+                <b> Number:</b> <?= $users[0]->user->phonenumber;?><br>
+                <b>Email:</b> <?= $users[0]->user->email;?><br>
+            </div>
         </section>
     </div>
     <footer class="site-footer clearfix" style="position: inherit;bottom: 0px;margin-top:4%">
