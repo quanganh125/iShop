@@ -334,7 +334,7 @@ section .contact-seller{
   height: 40px;
   font: normal normal normal 15px/1.4em "open sans",sans-serif;
   color: rgb(255, 255, 255);
-  background-color: rgb(95, 112, 129);
+  background-color: #4285f4;
   border-width: 0px;
 }
 
@@ -350,19 +350,3 @@ section .contact-seller:focus{
   display: none;
 }
 
-.logout{
-  background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
-.logout i{
-  color:white;
-  font-size: 1.7em;
-  display: inline-block;
-  line-height: 43px;
-  margin: 0 3px;
-}

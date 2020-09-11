@@ -6,7 +6,6 @@ use Cake\Http\Session;
 class UsersController extends AppController{
     public function login(){
         $this->loadModel('Users');
-        // $this->viewBuilder()->setLayout('loginpage');
         $login = $this->Users->newEmptyEntity();
         $session = $this->request->getSession();
 

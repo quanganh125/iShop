@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Model\Entity\Product;
 use Cake\Event\EventInterface;
+use Cake\Http\ServerRequest;
 use Cake\Database\Query;
 use Cake\Database\Expression\QueryExpression;
 
@@ -83,10 +84,49 @@ class ShopsController extends AppController{
                 $product_of_login_user = $this->Products->find('all', array('contain' => array('Users')))
                                                         ->where(['Products.user_id' => $check_exist_email[0]->user_id])
                                                         ->order(['id'=> 'ASC']);
-                // debug($product_of_login_user);
-                // exit(); 
-                $this->set(['product_of_login_user' => $product_of_login_user]);   
+                $this->set(['product_of_login_user' => $product_of_login_user,'user_id' => $check_exist_email[0]->user_id]);   
             }
         }
-    }  
+    } 
+    
+    public function deleteProduct($id){   
+        $this->loadModel('Products');
+        $product = $this->Products->findById($id)->firstOrFail();
+        if ($this->Products->delete($product)) {
+            $this->Flash->success(__('product has been deleted.'));
+            return $this->redirect(['action' => 'post_product']);
+        }
+    }
+
+    public function post(){  
+        $this->loadModel('Products');
+        $this->loadModel('ProductImages');
+        $product = $this->Products->newEmptyEntity(); 
+        $upload_image = $this->ProductImages->newEmptyEntity(); 
+        if($this->request->is('post')){
+            $product = $this->Products->patchEntity($product, $this->request->getData());
+
+            if(!$product->getErrors){
+                $image = $this->request->getData('image'); 
+                $category = $this->request->getData('category');
+                if ($category === 'watch') $type = 'watches';
+                else $type = $category . 's';
+                
+                $name = $image->getClientFilename();
+                $targetPath = WWW_ROOT.'img'.DS.$type.DS.$name;
+                $upload_image->image_link = '/img'.DS.$type.DS.$name;
+
+                if($name) $image->moveTo($targetPath);
+                $product->total = $this->request->getData('quatity');
+                $product->updated_at = date("Y-m-d H:i:s");
+                $product->user_id = $this->request->getData('user_id');
+
+                $upload_image->product_id = $this->Products->save($product)->id;
+                if($this->ProductImages->save($upload_image)){
+                    $this->Flash->success(__('Product has been added.'));
+                } else  $this->Flash->error(__('Add fail.'));
+            }            
+            return $this->redirect(['action' => 'post_product']);
+        }
+    }
 }

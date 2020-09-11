@@ -51,7 +51,7 @@
             <i class="fas fa-times" id="clear-btn" ></i>
         </form>
         <div class="sort-box">
-                <div class="dropdown dropdown-dark">
+                <div class="dropdown">
                     <select name="two" class="dropdown-select">
                     <option value="">Price: High to Low</option>
                     <option value="1">Price: Low to High</option>

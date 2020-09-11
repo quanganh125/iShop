@@ -79,31 +79,6 @@
 				</div>
 
 				<div class="grid-item">
-					<?php $test = 'airpod';?>
-					<article class="post tag-romance">
-					<a href=<?= $this->Url->build(['controller'=>'shops',
-												'action'=>'showProduct',
-												$test])?>><img src="/img/airpods/AP4.jpg"></a>
-					<div class="wrapgriditem">
-						<header class="post-header">
-						<h2 class="post-title"><a href=<?= $this->Url->build(['controller'=>'shops',
-																			'action'=>'showProduct',
-																			$test])?>>AirPod</a></h2>
-						</header>
-						<section class="post-excerpt">
-						<p>
-						Effortless, all-day audio on the go. <br>
-						AirPods Pro bring Active Noise Cancellation to an in-ear headphone — with a customizable fit.
-						<a class="read-more" href=<?= $this->Url->build(['controller'=>'shops',
-																		'action'=>'showProduct',
-																		$test])?>>&raquo;</a>
-						</p>
-						</section>
-					</div>
-					</article>
-				</div>
-
-				<div class="grid-item">
 					<?php $test = 'ipad';?>
 					<article class="post tag-romance">
 					<a href=<?= $this->Url->build(['controller'=>'shops',
@@ -122,6 +97,31 @@
 							<a class="read-more" href=<?= $this->Url->build(['controller'=>'shops',
 																			'action'=>'showProduct',
 																			$test])?>>&raquo;</a>
+						</p>
+						</section>
+					</div>
+					</article>
+				</div>
+
+				<div class="grid-item">
+					<?php $test = 'airpod';?>
+					<article class="post tag-romance">
+					<a href=<?= $this->Url->build(['controller'=>'shops',
+												'action'=>'showProduct',
+												$test])?>><img src="/img/airpods/AP4.jpg"></a>
+					<div class="wrapgriditem">
+						<header class="post-header">
+						<h2 class="post-title"><a href=<?= $this->Url->build(['controller'=>'shops',
+																			'action'=>'showProduct',
+																			$test])?>>AirPod</a></h2>
+						</header>
+						<section class="post-excerpt">
+						<p>
+						Effortless, all-day audio on the go. <br>
+						AirPods Pro bring Active Noise Cancellation to an in-ear headphone — with a customizable fit.
+						<a class="read-more" href=<?= $this->Url->build(['controller'=>'shops',
+																		'action'=>'showProduct',
+																		$test])?>>&raquo;</a>
 						</p>
 						</section>
 					</div>
